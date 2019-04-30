@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-typescript",
+  "description": "Nuxt.js TypeScript project",
+  "version": "2.6.2",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "5.4.1",
+    "express": "^4.16.4",
+    "nuxt": "2.6.2",
+    "nuxt-property-decorator": "2.1.3",
+    "ts-node": "8.1.0",
+    "vuex-class": "0.3.2"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "tslint -p ."
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "2.6.2",
+    "@types/node": "10.14.5",
+    "@types/webpack-env": "1.13.9",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1"
+  }
+}
